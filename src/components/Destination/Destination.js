@@ -3,13 +3,13 @@ import { AiOutlineLeft, AiOutlineRight } from 'react-icons/ai';
 
 const Destination = () => {
     return (
-        <div className='bg-base-100 w-full px-96 py-10 text-left '>
+        <div className='bg-base-100 w-full lg:px-96 py-10 text-left '>
             <p className="text-xl font-bold text-left">These top destinations are just a click away</p>
             <div className="tabs">
                 <a className="tab tab-bordered tab-active text-info">Top Cities</a>
                 <a className="tab tab-bordered">Top Destinations</a>
             </div>
-            <div className="grid grid-cols-4 gap-5 mt-3">
+            <div className="grid lg:grid-cols-4 gap-5 mt-3">
                 <div className="card   bg-transparent">
                     <figure><img src="https://i.ibb.co/gVypRNn/dummy.webp" alt="Shoes" /></figure>
                     <div className="pl-2">

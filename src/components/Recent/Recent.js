@@ -2,7 +2,7 @@ import React from 'react';
 
 const Recent = () => {
     return (
-        <div className='bg-base-100 w-full px-96 py-10 text-left hidden'>
+        <div className='bg-base-100 w-full lg:px-96 py-10 text-left hidden'>
             <p className="text-xl font-bold">Your recent activity</p>
             <ul className="steps steps-vertical">
                 <li data-content="" className=" step-neutral"></li>

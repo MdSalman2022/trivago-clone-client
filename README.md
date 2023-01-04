@@ -1,5 +1,11 @@
-# Getting Started with Create React App
+# Trivago clone app
 
+## `Live link`
+Open [https://trivago-clone-7c392.web.app/](https://trivago-clone-7c392.web.app/) to view it in your browser.
+
+
+
+# Getting Started with Create React App
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

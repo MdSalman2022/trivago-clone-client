@@ -2,7 +2,7 @@ import React from 'react';
 
 const Article = () => {
     return (
-        <div className='grid grid-cols-2 bg-base-100 w-full px-96 py-10 text-left '>
+        <div className='grid lg:grid-cols-2 bg-base-100 w-full lg:px-96 py-10 text-left '>
             <div>
                 <p className="font-bold">trivago's global hotel search</p>
                 <p>trivago’s hotel search allows users to compare hotel prices in just a few clicks from more than 300 booking sites for more than 5.0 million hotels and other types of accommodation in over 190 countries. We help millions of travelers each year compare deals for hotels and accommodations. Get information for weekend trips to cities like Mumbai or Bengaluru and you can find the right hotel on trivago quickly and easily. Delhi and its surrounding area are great for trips that are a week or longer with the numerous hotels available.</p>
@@ -21,7 +21,7 @@ const Article = () => {
             </div>
             <div className='mt-5'>
                 <p className="font-bold">More Top Cities</p>
-                <div className="grid grid-cols-3">
+                <div className="grid lg:grid-cols-3">
                     <div>Lorem, ipsum dolor.</div>
                     <div>Lorem, ipsum dolor.</div>
                     <div>Lorem, ipsum dolor.</div>
@@ -47,7 +47,7 @@ const Article = () => {
             </div>
             <div className='mt-5'>
                 <p className="font-bold">More Top Cities</p>
-                <div className="grid grid-cols-3">
+                <div className="grid lg:grid-cols-3">
                     <div>Lorem, ipsum dolor.</div>
                     <div>Lorem, ipsum dolor.</div>
                     <div>Lorem, ipsum dolor.</div>

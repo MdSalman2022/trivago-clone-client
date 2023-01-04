@@ -17,7 +17,7 @@ const AccountSettings = () => {
     return (
         <div>
             <Header />
-            <div className='grid grid-cols-4  px-96 py-10 '>
+            <div className='grid lg:grid-cols-4 lg:px-96 py-10 '>
                 <ul className="menu bg-base-100 w-56 col-span-1">
                     <li><a>Account Settings</a></li>
                     <li><a>Recently viewed</a></li>

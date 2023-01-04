@@ -7,7 +7,7 @@ import { AiOutlineTwitter, AiOutlineInstagram, AiFillYoutube } from 'react-icons
 
 const Footer = () => {
     return (
-        <footer className="footer w-full px-96 pt-10 pb-32 bg-neutral flex justify-between ">
+        <footer className="footer w-full lg:px-96 pt-10 lg:pb-32 pb-20 bg-neutral flex justify-between ">
             <div>
                 <span className="font-semibold text-left text-base-100">trivago N.V., Kesselstraße 5 – 7, 40221 Düsseldorf, <br /> Germany</span>
                 <div className='flex gap-5 text-2xl text-neutral'>
@@ -20,7 +20,7 @@ const Footer = () => {
             </div>
 
             <div>
-                <select className=" w-64 select select-bordered bg-neutral border-base-100 text-base-100 w-full max-w-xs">
+                <select className=" lg:w-64 select select-bordered bg-neutral border-base-100 text-base-100 w-full max-w-xs">
                     <option selected>India</option>
                     <option>Hong Kong</option>
                     <option>Hungery</option>
