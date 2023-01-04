@@ -1,27 +1,33 @@
 import React from 'react';
 
+import { FaFacebookF } from 'react-icons/fa';
+import { FaBeer, FaLinkedinIn } from 'react-icons/fa';
+import { AiOutlineTwitter, AiOutlineInstagram, AiFillYoutube } from 'react-icons/ai';
+
+
 const Footer = () => {
     return (
-        <footer className="footer p-10 bg-neutral text-neutral-content">
+        <footer className="footer w-full px-96 pt-10 pb-32 bg-neutral flex justify-between ">
             <div>
-                <span className="footer-title">Services</span>
-                <a className="link link-hover">Branding</a>
-                <a className="link link-hover">Design</a>
-                <a className="link link-hover">Marketing</a>
-                <a className="link link-hover">Advertisement</a>
+                <span className="font-semibold text-left text-base-100">trivago N.V., Kesselstraße 5 – 7, 40221 Düsseldorf, <br /> Germany</span>
+                <div className='flex gap-5 text-2xl text-neutral'>
+                    <FaFacebookF className='bg-base-100 p-1 rounded-full' />
+                    <AiOutlineTwitter className='bg-base-100 p-1 rounded-full' />
+                    <AiOutlineInstagram className='bg-base-100 p-1 rounded-full' />
+                    <AiFillYoutube className='bg-base-100 p-1 rounded-full' />
+                    <FaLinkedinIn className='bg-base-100 p-1 rounded-full' />
+                </div>
             </div>
+
             <div>
-                <span className="footer-title">Company</span>
-                <a className="link link-hover">About us</a>
-                <a className="link link-hover">Contact</a>
-                <a className="link link-hover">Jobs</a>
-                <a className="link link-hover">Press kit</a>
-            </div>
-            <div>
-                <span className="footer-title">Legal</span>
-                <a className="link link-hover">Terms of use</a>
-                <a className="link link-hover">Privacy policy</a>
-                <a className="link link-hover">Cookie policy</a>
+                <select className=" w-64 select select-bordered bg-neutral border-base-100 text-base-100 w-full max-w-xs">
+                    <option selected>India</option>
+                    <option>Hong Kong</option>
+                    <option>Hungery</option>
+                    <option>Italy</option>
+                    <option>USA</option>
+                    <option>Canada</option>
+                </select>
             </div>
         </footer>
     );
