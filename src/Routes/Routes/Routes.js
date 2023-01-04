@@ -1,6 +1,7 @@
 import React from 'react';
 import { createBrowserRouter } from 'react-router-dom';
 import Main from '../../layout/Main';
+import AccountSettings from '../../Pages/AccountSettings/AccountSettings';
 import Home from '../../Pages/Home/Home';
 import Login from '../../Pages/Login/Login';
 import Register from '../../Pages/Register/Register';
@@ -28,24 +29,14 @@ export const router = createBrowserRouter([
             },
         ]
     },
-    // {
-    //     path: '/dashboard',
-    //     element: <PrivateRoute><DashboardLayout></DashboardLayout></PrivateRoute>,
-    //     errorElement: <ErrorPage />,
-    //     children: [
-    //         {
-    //             path: '/dashboard',
-    //             element: <PrivateRoute><Dashboard></Dashboard></PrivateRoute>
-    //         },
-    //         {
-    //             path: '/dashboard/myorders/',
-    //             element: <PrivateRoute> <MyOrders></MyOrders></PrivateRoute>
-    //         },
-    //         {
-    //             path: '/dashboard/addproduct/',
-    //             element: <PrivateRoute><AddProduct></AddProduct></PrivateRoute>
-    //         },
-    //     ]
-    // }
+    {
+        path: '/dashboard',
+        children: [
+            {
+                path: '/dashboard',
+                element: <AccountSettings></AccountSettings>
+            },
+        ]
+    }
 
 ])
